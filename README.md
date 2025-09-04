@@ -50,5 +50,5 @@ Exemplo de organização:
  ┃ ┣ 📂 atividade-1  
  ┃ ┣ 📂 atividade-2  
  ┃ ┗ 📜 README.md  
- ┗ 📜 README.md  (este arquivo principal)
+ ┗ 📜 README.md
 
