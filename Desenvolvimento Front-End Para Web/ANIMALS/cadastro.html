@@ -5,13 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro - +ANIMALS</title>
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/cadastro.css">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
 
     <header>
         <h1>+ANIMALS</h1>
-        <nav>
+        
+        <button id="menu-toggle" class="menu-toggle-button" aria-label="Abrir menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav id="main-nav">
             <ul>
                 <li><a href="index.html">Início</a></li>
                 <li class="dropdown">
@@ -25,7 +32,9 @@
                 <li><a href="cadastro.html">Cadastro</a></li>
             </ul>
         </nav>
-        <a href="#modal-adote" class="button-header">Adote Agora</a>
+        
+        <a href="#modal-adote" class="button-header" id="header-cta-button">Adote Agora</a>
+        
     </header>
 
     <main class="cadastro-main">
